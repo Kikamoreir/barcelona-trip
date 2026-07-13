@@ -1,5 +1,19 @@
 document.addEventListener('DOMContentLoaded', function () {
     initMap();
+
+    const plane = document.getElementById('plane');
+    function triggerPlaneFly(mode = 'depart') {
+        if (!plane) return;
+        plane.classList.remove('fly', 'land');
+        void plane.offsetWidth;
+        plane.classList.add(mode === 'depart' ? 'fly' : 'land');
+    }
+
+    setTimeout(() => triggerPlaneFly('depart'), 550);
+
+    document.querySelectorAll('a[href="#guide"], a[href="#itinerary"], a[href="#map"]').forEach(link => {
+        link.addEventListener('click', () => triggerPlaneFly('land'));
+    });
 });
 
 function initMap() {
@@ -82,3 +96,5 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
+

@@ -12,7 +12,7 @@
         <div class="navbar-container">
             <a href="#top" class="navbar-logo"><i class="fas fa-plane"></i> Barcelona Trip 2026</a>
             <ul class="navbar-menu">
-                <li><a href="#overview" class="nav-link">Visão Geral</a></li>
+                <li><a href="#guide" class="nav-link">Guia</a></li>
                 <li><a href="#itinerary" class="nav-link">Itinerário</a></li>
                 <li><a href="#costs" class="nav-link">Custos</a></li>
                 <li><a href="#places" class="nav-link">Locais</a></li>
@@ -23,12 +23,16 @@
 
     <header id="top" class="hero">
         <div class="hero-content">
+            <div class="hero-badge">
+                <span>Roteiro de aventura</span>
+                <span>4 dias • 3 noites • Barcelona</span>
+            </div>
             <p class="hero-eyebrow">Barcelona • 15 a 18 de Julho 2026</p>
-            <h1>Uma escapada urbana, marítima e muito especial</h1>
-            <p>Quatro dias com praias, arquitetura, futebol, mercados e noites à beira-mar.</p>
+            <h1>Um roteiro mais limpo, mais prático e cheio de aventura</h1>
+            <p>Chegar, mover-te sem stress, visitar o essencial e agrupar cada dia por zona para não andar demais de metro.</p>
             <div class="hero-actions">
-                <a href="#map" class="btn btn-primary">Ver hotel e Mercadona</a>
-                <a href="#places" class="btn btn-secondary">Reservar / comprar</a>
+                <a href="#guide" class="btn btn-primary">Ver guia prático</a>
+                <a href="#itinerary" class="btn btn-secondary">Ver itinerário</a>
             </div>
             <div class="hero-stats">
                 <div class="stat-pill"><strong>4 dias</strong><span>de viagem</span></div>
@@ -36,43 +40,61 @@
                 <div class="stat-pill"><strong>1 hotel</strong><span>em Sant Martí</span></div>
             </div>
         </div>
+        <div id="plane" class="plane" aria-hidden="true">
+            <svg viewBox="0 0 640 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+                <g fill="none" stroke="white" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M40 120 L220 80 L400 40 L560 24" opacity="0.95" />
+                </g>
+                <g fill="white">
+                    <polygon points="420,40 460,30 450,50" opacity="0.98" />
+                </g>
+            </svg>
+        </div>
     </header>
 
-    <section class="highlights">
+    <section id="guide" class="highlights">
         <div class="container">
             <div class="section-heading">
-                <h2>O que vamos viver</h2>
-                <p>Uma experiência mais realista e agradável, com espaços para descansar, explorar e aproveitar o melhor da cidade.</p>
+                <h2>Guia prático para chegar e mover-te</h2>
+                <p>Informação organizada para fazeres a viagem com mais calma e sem perder tempo.</p>
             </div>
-            <div class="gallery-grid">
-                <article class="gallery-card">
-                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80" alt="Praia de Barcelona" />
-                    <div class="gallery-card-content">
-                        <h3>Praias e mergulho</h3>
-                        <p>Bogatell e Barceloneta para dias de sol, mar e muita pausa.</p>
+            <div class="travel-stack">
+                <article class="guide-panel">
+                    <div class="guide-title">
+                        <i class="fas fa-plane-departure"></i>
+                        <h3>Aeroporto → Centro de Barcelona</h3>
+                    </div>
+                    <div class="guide-columns">
+                        <div>
+                            <h4>Opção mais barata (recomendada)</h4>
+                            <p><strong>Terminal 2</strong> — apanhar o comboio <strong>R2 Nord (Renfe)</strong> e sair em <strong>Passeig de Gràcia</strong> em cerca de 27 minutos.</p>
+                            <p><strong>Terminal 1</strong> — apanhar o shuttle gratuito até ao Terminal 2 e seguir no mesmo comboio.</p>
+                        </div>
+                        <div>
+                            <h4>Onde deixar as malas</h4>
+                            <p><strong>Locker Barcelona – Plaça Catalunya</strong> — perto do centro, cerca de 5–8 € por mala.</p>
+                            <p><strong>Lockers Barcelona Sants</strong> — boa opção se fores de comboio, cerca de 5–7 €.</p>
+                        </div>
                     </div>
                 </article>
-                <article class="gallery-card">
-                    <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=900&q=80" alt="Arquitetura de Barcelona" />
-                    <div class="gallery-card-content">
-                        <h3>Arquitetura marcante</h3>
-                        <p>Parque Güell e os bairros mais vibrantes da cidade em cada esquina.</p>
-                    </div>
-                </article>
-                <article class="gallery-card">
-                    <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=900&q=80" alt="Estádio de futebol" />
-                    <div class="gallery-card-content">
-                        <h3>Camp Nou</h3>
-                        <p>Uma visita ao coração do futebol do Barça, com história e emoção.</p>
-                    </div>
-                </article>
-                <article class="gallery-card">
-                    <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=900&q=80" alt="Comida tradicional espanhola" />
-                    <div class="gallery-card-content">
-                        <h3>Gastronomia local</h3>
-                        <p>Mercados, tapas, paella e pratos de conforto numa cidade cheia de sabor.</p>
-                    </div>
-                </article>
+                <div class="info-grid">
+                    <article class="info-card">
+                        <i class="fas fa-ticket"></i>
+                        <h3>T-Casual</h3>
+                        <p><strong>13,55 €</strong> por 10 viagens.</p>
+                        <p>Válida para metro, autocarros, elétricos e comboios Renfe (zona 1).</p>
+                    </article>
+                    <article class="info-card">
+                        <i class="fas fa-bag-shopping"></i>
+                        <h3>Como chegar ao hotel</h3>
+                        <p>Idealmente ir de comboio até ao centro e depois continuar de metro ou táxi curto para o hotel.</p>
+                    </article>
+                    <article class="info-card">
+                        <i class="fas fa-map-location-dot"></i>
+                        <h3>Estratégia por zonas</h3>
+                        <p>Os dias foram pensados para não alternares de metro sem necessidade.</p>
+                    </article>
+                </div>
             </div>
         </div>
     </section>
@@ -119,46 +141,128 @@
     <section id="itinerary" class="timeline">
         <div class="container">
             <div class="section-heading">
-                <h2>Itinerário do fim de semana</h2>
-                <p>Um plano equilibrado entre praia, cultura, alimentação e descanso.</p>
+                <h2>Itinerário por zonas</h2>
+                <p>Um plano mais fluido, organizado por áreas para fazeres menos deslocações e aproveitares melhor cada dia.</p>
             </div>
 
-            <div class="day-card">
-                <div class="day-header" style="background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);">
-                    <h3>Quarta, 15 Julho</h3>
-                    <p class="day-subtitle">Chegada, hotel e praia</p>
+            <article class="day-card">
+                <div class="day-cover">
+                    <img src="https://images.unsplash.com/photo-1583779457094-ab6f7c4f6d4f?auto=format&fit=crop&w=1400&q=80" alt="Barcelona centro e praia" />
+                    <div class="day-overlay">
+                        <span class="day-tag">Quarta-feira</span>
+                        <h3>Centro + IKONO + Praia</h3>
+                        <p>Zona: centro • Poblenou • mar</p>
+                    </div>
                 </div>
-                <div class="day-content">
-                    <div class="timeline-item"><div class="time">09:00</div><div class="activity"><h4><i class="fas fa-suitcase-rolling"></i> Chegada e armazenamento</h4><p>Guardar malas e começar a explorar a cidade com calma.</p></div></div>
-                    <div class="timeline-item"><div class="time">13:00</div><div class="activity"><h4><i class="fas fa-vr-cardboard"></i> INOKO</h4><p>Experiência interativa em realidade virtual.</p></div></div>
-                    <div class="timeline-item"><div class="time">15:30</div><div class="activity"><h4><i class="fas fa-hotel"></i> Check-in</h4><p>Chegar ao hotel e começar a descansar.</p></div></div>
-                    <div class="timeline-item"><div class="time">16:30</div><div class="activity"><h4><i class="fas fa-water"></i> Praia de Bogatell</h4><p>Tempo de praia, banho e relax.</p></div></div>
+                <div class="day-body">
+                    <div class="zone-tags">
+                        <span>Centro</span>
+                        <span>Poblenou</span>
+                        <span>Praia</span>
+                    </div>
+                    <ul class="day-list">
+                        <li><strong>09:00</strong> Chegada ao aeroporto e compra da <strong>T-Casual</strong>.</li>
+                        <li><strong>10:00</strong> Comboio <strong>R2 Nord</strong> até <strong>Passeig de Gràcia</strong>.</li>
+                        <li><strong>11:00</strong> Guardar as malas e ir direto para a <strong>Sagrada Família</strong> (exterior).</li>
+                        <li><strong>13:00</strong> <strong>IKONO Barcelona</strong> e almoço simples no Mercadona.</li>
+                        <li><strong>16:00</strong> Check-in no hotel e tarde em <strong>Bogatell</strong>.</li>
+                        <li><strong>20:00</strong> Jantar no centro ou em Poblenou e copo à noite.</li>
+                    </ul>
+                    <div class="day-gallery-grid">
+                        <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80" alt="Praia de Bogatell" />
+                        <img src="https://images.unsplash.com/photo-1511527661048-7fe73d85e9a4?auto=format&fit=crop&w=800&q=80" alt="Cidade de Barcelona" />
+                        <img src="https://images.unsplash.com/photo-1583779457094-ab6f7c4f6d4f?auto=format&fit=crop&w=800&q=80" alt="Arquitetura de Barcelona" />
+                    </div>
                 </div>
-            </div>
+            </article>
 
-            <div class="day-card">
-                <div class="day-header" style="background: linear-gradient(135deg, #fb7185 0%, #f97316 100%);">
-                    <h3>Quinta, 16 Julho</h3>
-                    <p class="day-subtitle">Praia e futebol</p>
+            <article class="day-card">
+                <div class="day-cover">
+                    <img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80" alt="Passeig de Gràcia e Camp Nou" />
+                    <div class="day-overlay">
+                        <span class="day-tag">Quinta-feira</span>
+                        <h3>Camp Nou + Passeig de Gràcia</h3>
+                        <p>Zona: Les Corts • Eixample</p>
+                    </div>
                 </div>
-                <div class="day-content">
-                    <div class="timeline-item"><div class="time">10:00</div><div class="activity"><h4><i class="fas fa-water"></i> Manhã de praia</h4><p>Mais tempo ao sol e ao mar.</p></div></div>
-                    <div class="timeline-item"><div class="time">15:00</div><div class="activity"><h4><i class="fas fa-football"></i> Camp Nou</h4><p>Visita ao estádio do FC Barcelona.</p></div></div>
-                    <div class="timeline-item"><div class="time">20:00</div><div class="activity"><h4><i class="fas fa-utensils"></i> Jantar simples</h4><p>Refeição económica e prática.</p></div></div>
+                <div class="day-body">
+                    <div class="zone-tags">
+                        <span>Les Corts</span>
+                        <span>Eixample</span>
+                    </div>
+                    <ul class="day-list">
+                        <li><strong>09:30</strong> Pequeno-almoço e deslocação suave até ao <strong>Camp Nou</strong>.</li>
+                        <li><strong>11:00</strong> Visita ao estádio e museu do Barça.</li>
+                        <li><strong>14:00</strong> Almoço simples e passeio pelo <strong>Passeig de Gràcia</strong>.</li>
+                        <li><strong>15:30</strong> <strong>Casa Batlló</strong> e <strong>La Pedrera</strong> (fachadas e exteriores).</li>
+                        <li><strong>20:00</strong> Jantar relaxado e bolo em <strong>99 Cheesecake</strong>.</li>
+                    </ul>
+                    <div class="day-gallery-grid">
+                        <img src="https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=800&q=80" alt="Passeig de Gràcia" />
+                        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80" alt="Camp Nou" />
+                        <img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=800&q=80" alt="Barcelona em dia de cidade" />
+                    </div>
                 </div>
-            </div>
+            </article>
 
-            <div class="day-card">
-                <div class="day-header" style="background: linear-gradient(135deg, #0ea5e9 0%, #14b8a6 100%);">
-                    <h3>Sexta, 17 Julho</h3>
-                    <p class="day-subtitle">Cultura, mercado e pôr do sol</p>
+            <article class="day-card">
+                <div class="day-cover">
+                    <img src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?auto=format&fit=crop&w=1400&q=80" alt="Park Güell e centro histórico" />
+                    <div class="day-overlay">
+                        <span class="day-tag">Sexta-feira</span>
+                        <h3>Park Güell + Centro Histórico</h3>
+                        <p>Zona: Gràcia • Ciutat Vella</p>
+                    </div>
                 </div>
-                <div class="day-content">
-                    <div class="timeline-item"><div class="time">10:00</div><div class="activity"><h4><i class="fas fa-store"></i> La Boqueria</h4><p>Mercado tradicional com produtos frescos e sabor local.</p></div></div>
-                    <div class="timeline-item"><div class="time">11:30</div><div class="activity"><h4><i class="fas fa-tree"></i> Parque Güell</h4><p>Visita a um dos locais mais icónicos da cidade.</p></div></div>
-                    <div class="timeline-item"><div class="time">18:00</div><div class="activity"><h4><i class="fas fa-sun"></i> Sunset em Barceloneta</h4><p>Fim de tarde perfeito para relaxar e fazer fotos.</p></div></div>
+                <div class="day-body">
+                    <div class="zone-tags">
+                        <span>Gràcia</span>
+                        <span>Centro histórico</span>
+                    </div>
+                    <ul class="day-list">
+                        <li><strong>09:30</strong> Pequeno-almoço e deslocação para o <strong>Park Güell</strong>.</li>
+                        <li><strong>11:00</strong> Visita ao parque e à zona de Gràcia.</li>
+                        <li><strong>13:30</strong> Almoço e depois caminho para a <strong>Boqueria</strong>.</li>
+                        <li><strong>15:00</strong> <strong>La Rambla</strong> e <strong>Bairro Gótico</strong>.</li>
+                        <li><strong>19:00</strong> Sunset em <strong>Barceloneta</strong> e jantar rápido.</li>
+                    </ul>
+                    <div class="day-gallery-grid">
+                        <img src="https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=800&q=80" alt="Park Güell" />
+                        <img src="https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?auto=format&fit=crop&w=800&q=80" alt="La Boqueria" />
+                        <img src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?auto=format&fit=crop&w=800&q=80" alt="Centro histórico de Barcelona" />
+                    </div>
                 </div>
-            </div>
+            </article>
+
+            <article class="day-card">
+                <div class="day-cover">
+                    <img src="https://images.unsplash.com/photo-1511207538754-e8555f2bc187?auto=format&fit=crop&w=1400&q=80" alt="Porto de Barcelona" />
+                    <div class="day-overlay">
+                        <span class="day-tag">Sábado</span>
+                        <h3>Zona do Porto + Aeroporto</h3>
+                        <p>Zona: Port Vell • Maremagnum</p>
+                    </div>
+                </div>
+                <div class="day-body">
+                    <div class="zone-tags">
+                        <span>Port Vell</span>
+                        <span>Maremagnum</span>
+                        <span>Aeroporto</span>
+                    </div>
+                    <ul class="day-list">
+                        <li><strong>09:00</strong> Pequeno-almoço e check-out.</li>
+                        <li><strong>10:00</strong> Passeio por <strong>Port Vell</strong> e <strong>Maremagnum</strong>.</li>
+                        <li><strong>12:00</strong> Última praia ou café perto da zona marítima.</li>
+                        <li><strong>14:00</strong> Voltar ao hotel para buscar as malas.</li>
+                        <li><strong>16:00</strong> Direção ao aeroporto para a volta.</li>
+                    </ul>
+                    <div class="day-gallery-grid">
+                        <img src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?auto=format&fit=crop&w=800&q=80" alt="Porto de Barcelona" />
+                        <img src="https://images.unsplash.com/photo-1503220317375-aaad61436b1b?auto=format&fit=crop&w=800&q=80" alt="Praia e mar em Barcelona" />
+                        <img src="https://images.unsplash.com/photo-1511207538754-e8555f2bc187?auto=format&fit=crop&w=800&q=80" alt="Barcelona à beira-mar" />
+                    </div>
+                </div>
+            </article>
         </div>
     </section>
 
@@ -188,57 +292,57 @@
             </div>
             <div class="places-grid">
                 <article class="place-card">
-                    <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80" alt="Praia de Bogatell" />
+                    <img src="https://images.unsplash.com/photo-1549899610-7c1f8a9b7bfb?auto=format&fit=crop&w=900&q=80" alt="Sagrada Familia" />
                     <div class="place-content">
-                        <h3>Bogatell Beach</h3>
-                        <p>Praia moderna e acolhedora para relaxar e tomar banho.</p>
+                        <h3>Sagrada Família</h3>
+                        <p>Obra-prima de Gaudí — reservar visita guiada com hora marcada.</p>
+                        <p class="price">€26</p>
+                        <a href="https://sagradafamilia.org/en/tickets" target="_blank" rel="noreferrer" class="buy-link">Comprar bilhetes</a>
+                    </div>
+                </article>
+                <article class="place-card">
+                    <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=900&q=80" alt="Casa Batlló" />
+                    <div class="place-content">
+                        <h3>Casa Batlló</h3>
+                        <p>Fachada icónica e interior modernista — visita rápida de 1h.</p>
+                        <p class="price">€25</p>
+                        <a href="https://www.casabatllo.es/en/" target="_blank" rel="noreferrer" class="buy-link">Comprar / reservar</a>
+                    </div>
+                </article>
+                <article class="place-card">
+                    <img src="https://images.unsplash.com/photo-1504470695779-753d1f17b2a8?auto=format&fit=crop&w=900&q=80" alt="Gothic Quarter" />
+                    <div class="place-content">
+                        <h3>Bairro Gótico</h3>
+                        <p>Ruas históricas, Catedral e Plaça Reial — ideal para passeio a pé.</p>
                         <p class="price">Gratuito</p>
-                        <a href="https://www.barcelona.com/barcelona_guides/beaches/bogatell_beach" target="_blank" rel="noreferrer" class="buy-link">Ver mais</a>
+                        <a href="https://www.barcelona.com/barcelona_directory/gothic_quarter" target="_blank" rel="noreferrer" class="buy-link">Ver guia</a>
                     </div>
                 </article>
                 <article class="place-card">
-                    <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=900&q=80" alt="Camp Nou" />
+                    <img src="https://images.unsplash.com/photo-1509223197845-458d87318791?auto=format&fit=crop&w=900&q=80" alt="Montjuic" />
                     <div class="place-content">
-                        <h3>Camp Nou</h3>
-                        <p>Visita o estádio do FC Barcelona e o museu do clube.</p>
-                        <p class="price">€29</p>
-                        <a href="https://www.fcbarcelona.com/en/tickets" target="_blank" rel="noreferrer" class="buy-link">Comprar / reservar</a>
+                        <h3>Montjuïc</h3>
+                        <p>Jardins, castelo, teleférico e vistas incríveis sobre a cidade.</p>
+                        <p class="price">Variedade</p>
+                        <a href="https://www.barcelona.cat/en/what-to-do-in-bcn/montjuic" target="_blank" rel="noreferrer" class="buy-link">Explorar</a>
                     </div>
                 </article>
                 <article class="place-card">
-                    <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80" alt="Parque Güell" />
+                    <img src="https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=900&q=80" alt="Picasso Museum" />
                     <div class="place-content">
-                        <h3>Parque Güell</h3>
-                        <p>Um dos locais mais bonitos e característicos da cidade.</p>
-                        <p class="price">€16</p>
-                        <a href="https://parkguell.barcelona/en/" target="_blank" rel="noreferrer" class="buy-link">Comprar / reservar</a>
+                        <h3>Museu Picasso</h3>
+                        <p>Acervo importante do Picasso, perfeito para quem gosta de arte.</p>
+                        <p class="price">€12</p>
+                        <a href="https://www.museupicasso.bcn.cat/en/" target="_blank" rel="noreferrer" class="buy-link">Comprar bilhetes</a>
                     </div>
                 </article>
                 <article class="place-card">
-                    <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80" alt="La Boqueria" />
+                    <img src="https://images.unsplash.com/photo-1509223197845-458d87318791?auto=format&fit=crop&w=900&q=80" alt="Palau de la Musica" />
                     <div class="place-content">
-                        <h3>La Boqueria</h3>
-                        <p>Mercado vibrante com gastronomia local e muita energia.</p>
-                        <p class="price">Gratuito</p>
-                        <a href="https://www.boqueria.barcelona/en/" target="_blank" rel="noreferrer" class="buy-link">Ver local</a>
-                    </div>
-                </article>
-                <article class="place-card">
-                    <img src="https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=900&q=80" alt="INOKO" />
-                    <div class="place-content">
-                        <h3>INOKO</h3>
-                        <p>Experiência de realidade virtual e tecnologia.</p>
+                        <h3>Palau de la Música</h3>
+                        <p>Concertos e visitas guiadas — arquitetura modernista impressionante.</p>
                         <p class="price">€18</p>
-                        <a href="https://www.inoko.com/" target="_blank" rel="noreferrer" class="buy-link">Ver disponibilidade</a>
-                    </div>
-                </article>
-                <article class="place-card">
-                    <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80" alt="Barceloneta" />
-                    <div class="place-content">
-                        <h3>Barceloneta</h3>
-                        <p>A praia urbana mais famosa da cidade, ideal para pôr do sol.</p>
-                        <p class="price">Gratuito</p>
-                        <a href="https://www.barcelona.com/barcelona_guides/beaches/barceloneta" target="_blank" rel="noreferrer" class="buy-link">Ver mais</a>
+                        <a href="https://www.palaumusica.cat/en/" target="_blank" rel="noreferrer" class="buy-link">Bilhetes / visitas</a>
                     </div>
                 </article>
             </div>
