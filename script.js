@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
         plane.classList.add(mode === 'depart' ? 'fly' : 'land');
     }
 
-    setTimeout(() => triggerPlaneFly('depart'), 550);
+    setTimeout(() => triggerPlaneFly('land'), 400);
 
     document.querySelectorAll('a[href="#guide"], a[href="#itinerary"], a[href="#map"]').forEach(link => {
         link.addEventListener('click', () => triggerPlaneFly('land'));
