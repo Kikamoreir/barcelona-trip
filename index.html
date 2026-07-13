@@ -10,10 +10,10 @@
 <body>
     <nav class="navbar">
         <div class="navbar-container">
-            <h1 class="navbar-logo"><i class="fas fa-plane"></i> Barcelona Trip 2026</h1>
+            <a href="#top" class="navbar-logo"><i class="fas fa-plane"></i> Barcelona Trip 2026</a>
             <ul class="navbar-menu">
                 <li><a href="#overview" class="nav-link">Visão Geral</a></li>
-                <li><a href="#timeline" class="nav-link">Itinerário</a></li>
+                <li><a href="#itinerary" class="nav-link">Itinerário</a></li>
                 <li><a href="#costs" class="nav-link">Custos</a></li>
                 <li><a href="#places" class="nav-link">Locais</a></li>
                 <li><a href="#map" class="nav-link">Mapa</a></li>
@@ -21,17 +21,68 @@
         </div>
     </nav>
 
-    <section class="hero">
+    <header id="top" class="hero">
         <div class="hero-content">
-            <h2>Viagem em Barcelona</h2>
-            <p>15 - 18 de Julho 2026</p>
-            <p class="hero-subtitle">4 dias de aventura na cidade condal</p>
+            <p class="hero-eyebrow">Barcelona • 15 a 18 de Julho 2026</p>
+            <h1>Uma escapada urbana, marítima e muito especial</h1>
+            <p>Quatro dias com praias, arquitetura, futebol, mercados e noites à beira-mar.</p>
+            <div class="hero-actions">
+                <a href="#map" class="btn btn-primary">Ver hotel e Mercadona</a>
+                <a href="#places" class="btn btn-secondary">Reservar / comprar</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-pill"><strong>4 dias</strong><span>de viagem</span></div>
+                <div class="stat-pill"><strong>3 noites</strong><span>em Barcelona</span></div>
+                <div class="stat-pill"><strong>1 hotel</strong><span>em Sant Martí</span></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="highlights">
+        <div class="container">
+            <div class="section-heading">
+                <h2>O que vamos viver</h2>
+                <p>Uma experiência mais realista e agradável, com espaços para descansar, explorar e aproveitar o melhor da cidade.</p>
+            </div>
+            <div class="gallery-grid">
+                <article class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80" alt="Praia de Barcelona" />
+                    <div class="gallery-card-content">
+                        <h3>Praias e mergulho</h3>
+                        <p>Bogatell e Barceloneta para dias de sol, mar e muita pausa.</p>
+                    </div>
+                </article>
+                <article class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=900&q=80" alt="Arquitetura de Barcelona" />
+                    <div class="gallery-card-content">
+                        <h3>Arquitetura marcante</h3>
+                        <p>Parque Güell e os bairros mais vibrantes da cidade em cada esquina.</p>
+                    </div>
+                </article>
+                <article class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=900&q=80" alt="Estádio de futebol" />
+                    <div class="gallery-card-content">
+                        <h3>Camp Nou</h3>
+                        <p>Uma visita ao coração do futebol do Barça, com história e emoção.</p>
+                    </div>
+                </article>
+                <article class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=900&q=80" alt="Comida tradicional espanhola" />
+                    <div class="gallery-card-content">
+                        <h3>Gastronomia local</h3>
+                        <p>Mercados, tapas, paella e pratos de conforto numa cidade cheia de sabor.</p>
+                    </div>
+                </article>
+            </div>
         </div>
     </section>
 
     <section id="overview" class="overview">
         <div class="container">
-            <h2>Informações da Viagem</h2>
+            <div class="section-heading">
+                <h2>Resumo prático da viagem</h2>
+                <p>Informações essenciais para a organização, tudo em formato claro e visual.</p>
+            </div>
             <div class="info-grid">
                 <div class="info-card">
                     <i class="fas fa-plane-departure"></i>
@@ -43,8 +94,8 @@
                 <div class="info-card">
                     <i class="fas fa-calendar-days"></i>
                     <h3>Duração</h3>
-                    <p><strong>4 Dias</strong></p>
-                    <p>3 Noites</p>
+                    <p><strong>4 dias</strong></p>
+                    <p>3 noites</p>
                     <p>Terça a Sábado</p>
                 </div>
                 <div class="info-card">
@@ -65,239 +116,47 @@
         </div>
     </section>
 
-    <section id="timeline" class="timeline">
+    <section id="itinerary" class="timeline">
         <div class="container">
-            <h2>Itinerário Detalhado</h2>
-            
+            <div class="section-heading">
+                <h2>Itinerário do fim de semana</h2>
+                <p>Um plano equilibrado entre praia, cultura, alimentação e descanso.</p>
+            </div>
+
             <div class="day-card">
-                <div class="day-header" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                <div class="day-header" style="background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);">
                     <h3>Quarta, 15 Julho</h3>
-                    <p class="day-subtitle">Chegada e Exploração</p>
+                    <p class="day-subtitle">Chegada, hotel e praia</p>
                 </div>
                 <div class="day-content">
-                    <div class="timeline-item">
-                        <div class="time">09:00</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-suitcase-rolling"></i> Chegada & Armazenamento</h4>
-                            <p>Armazenar malas no cacifo do hotel + compras iniciais</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">10:00</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-city"></i> Exploração da Cidade</h4>
-                            <p>Aproveitar a manhã para conhecer o centro da cidade</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">13:00</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-landmark"></i> INOKO</h4>
-                            <p><strong>Preço:</strong> €18 por pessoa | Experiência interativa em realidade virtual</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">14:30</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-utensils"></i> Almoço & Compras</h4>
-                            <p>Mercadona - aprovisionamento para pequeno-almoço</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">14:30</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-hotel"></i> Check-in Hotel</h4>
-                            <p>Chegada ao hotel e check-in (30 min)</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">15:30</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-water"></i> Praia - Bogatell</h4>
-                            <p>Relax na praia de Bogatell, mergulho e banho</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">18:00</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-shower"></i> Duche & Descanso</h4>
-                            <p>Casa de banho e preparação para a noite</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">19:00</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-wine-glass"></i> Jantar & Bebidas</h4>
-                            <p>Jantar fora do centro + copos na noite</p>
-                        </div>
-                    </div>
+                    <div class="timeline-item"><div class="time">09:00</div><div class="activity"><h4><i class="fas fa-suitcase-rolling"></i> Chegada e armazenamento</h4><p>Guardar malas e começar a explorar a cidade com calma.</p></div></div>
+                    <div class="timeline-item"><div class="time">13:00</div><div class="activity"><h4><i class="fas fa-vr-cardboard"></i> INOKO</h4><p>Experiência interativa em realidade virtual.</p></div></div>
+                    <div class="timeline-item"><div class="time">15:30</div><div class="activity"><h4><i class="fas fa-hotel"></i> Check-in</h4><p>Chegar ao hotel e começar a descansar.</p></div></div>
+                    <div class="timeline-item"><div class="time">16:30</div><div class="activity"><h4><i class="fas fa-water"></i> Praia de Bogatell</h4><p>Tempo de praia, banho e relax.</p></div></div>
                 </div>
             </div>
 
             <div class="day-card">
-                <div class="day-header" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                <div class="day-header" style="background: linear-gradient(135deg, #fb7185 0%, #f97316 100%);">
                     <h3>Quinta, 16 Julho</h3>
-                    <p class="day-subtitle">Praia e Futebol</p>
+                    <p class="day-subtitle">Praia e futebol</p>
                 </div>
                 <div class="day-content">
-                    <div class="timeline-item">
-                        <div class="time">09:00</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-coffee"></i> Pequeno-almoço</h4>
-                            <p>Acordar cedo, pequeno-almoço energético</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">10:00</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-water"></i> Manhã na Praia</h4>
-                            <p>Mais tempo de praia, mergulho e relaxo</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">13:00</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-sandwich"></i> Almoço na Praia</h4>
-                            <p>Sanduíche de pesto com presunto direto na praia</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">15:00</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-football"></i> Camp Nou - Estádio do FC Barcelona</h4>
-                            <p><strong>Preço:</strong> €29 por pessoa | Tour completo do estádio + museu</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">17:00</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-city"></i> Conhecer a Cidade</h4>
-                            <p>Exploração urbana, lojas e pontos de interesse</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">18:00</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-water"></i> Tarde na Praia</h4>
-                            <p>Mergulho e last swim antes do pôr do sol</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">20:00</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-utensils"></i> Jantar</h4>
-                            <p>Refeição no Mercadona - opção económica</p>
-                        </div>
-                    </div>
+                    <div class="timeline-item"><div class="time">10:00</div><div class="activity"><h4><i class="fas fa-water"></i> Manhã de praia</h4><p>Mais tempo ao sol e ao mar.</p></div></div>
+                    <div class="timeline-item"><div class="time">15:00</div><div class="activity"><h4><i class="fas fa-football"></i> Camp Nou</h4><p>Visita ao estádio do FC Barcelona.</p></div></div>
+                    <div class="timeline-item"><div class="time">20:00</div><div class="activity"><h4><i class="fas fa-utensils"></i> Jantar simples</h4><p>Refeição económica e prática.</p></div></div>
                 </div>
             </div>
 
             <div class="day-card">
-                <div class="day-header" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                <div class="day-header" style="background: linear-gradient(135deg, #0ea5e9 0%, #14b8a6 100%);">
                     <h3>Sexta, 17 Julho</h3>
-                    <p class="day-subtitle">Cultura e Gastronomia</p>
+                    <p class="day-subtitle">Cultura, mercado e pôr do sol</p>
                 </div>
                 <div class="day-content">
-                    <div class="timeline-item">
-                        <div class="time">09:00</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-coffee"></i> Pequeno-almoço</h4>
-                            <p>Acordar cedo novamente</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">10:00</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-store"></i> Mercado de La Boqueria</h4>
-                            <p>Mercado tradicional com barracas de comida e produtos frescos</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">11:30</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-tree"></i> Parque Güell</h4>
-                            <p><strong>Preço:</strong> €16 por pessoa | Ingressos diretos para entrada livre (timed)</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">13:30</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-utensils"></i> Almoço - Paella</h4>
-                            <p>Restaurant perto com desconto no The Fork: 50% | Paella tradicional</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">15:00</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-water"></i> Barceloneta Beach</h4>
-                            <p>Praia urbana com cerveja e acessórios de praia - beach picks</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">18:00</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-sun"></i> Sunset & Copos</h4>
-                            <p>Pôr do sol com bebidas alcoólicas, ambiente relaxado</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">20:00</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-burger"></i> Jantar - McDonald's</h4>
-                            <p>Refeição casual no McDonald's</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="day-card">
-                <div class="day-header" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
-                    <h3>Sábado, 18 Julho</h3>
-                    <p class="day-subtitle">Última Manhã & Retorno</p>
-                </div>
-                <div class="day-content">
-                    <div class="timeline-item">
-                        <div class="time">08:00</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-key"></i> Check-out</h4>
-                            <p>Checkout do hotel, guardar malas</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">08:30</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-water"></i> Última Manhã na Praia</h4>
-                            <p>Mergulho final até às 14:00 - aproveitar ao máximo</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">14:00</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-city"></i> Exploração do Centro</h4>
-                            <p>Últimas compras e passeio pelo centro (até 17:00)</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">17:00</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-car"></i> Ida para o Aeroporto</h4>
-                            <p>Deslocação para o aeroporto (transporte + margem de tempo)</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">20:40</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-plane-departure"></i> Partida</h4>
-                            <p>Voo de regresso ao Porto</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="time">21:40</div>
-                        <div class="activity">
-                            <h4><i class="fas fa-home"></i> Chegada a Porto</h4>
-                            <p>Fim da viagem - regresso a casa</p>
-                        </div>
-                    </div>
+                    <div class="timeline-item"><div class="time">10:00</div><div class="activity"><h4><i class="fas fa-store"></i> La Boqueria</h4><p>Mercado tradicional com produtos frescos e sabor local.</p></div></div>
+                    <div class="timeline-item"><div class="time">11:30</div><div class="activity"><h4><i class="fas fa-tree"></i> Parque Güell</h4><p>Visita a um dos locais mais icónicos da cidade.</p></div></div>
+                    <div class="timeline-item"><div class="time">18:00</div><div class="activity"><h4><i class="fas fa-sun"></i> Sunset em Barceloneta</h4><p>Fim de tarde perfeito para relaxar e fazer fotos.</p></div></div>
                 </div>
             </div>
         </div>
@@ -305,199 +164,129 @@
 
     <section id="costs" class="costs">
         <div class="container">
-            <h2>Orçamento Detalhado</h2>
-            <div class="cost-table">
-                <div class="cost-header">
-                    <div>Descrição</div>
-                    <div>Preço</div>
-                    <div>Obs.</div>
-                </div>
-                <div class="cost-row">
-                    <div class="cost-desc"><i class="fas fa-bus"></i> T Casual (10 viagens)</div>
-                    <div class="cost-price">€13.00</div>
-                    <div class="cost-obs">Transporte público</div>
-                </div>
-                <div class="cost-row">
-                    <div class="cost-desc"><i class="fas fa-vr-cardboard"></i> INOKO</div>
-                    <div class="cost-price">€18.00</div>
-                    <div class="cost-obs">Quarta 15 Julho</div>
-                </div>
-                <div class="cost-row">
-                    <div class="cost-desc"><i class="fas fa-football"></i> Camp Nou Tour + Museu</div>
-                    <div class="cost-price">€29.00</div>
-                    <div class="cost-obs">Quinta 16 Julho</div>
-                </div>
-                <div class="cost-row">
-                    <div class="cost-desc"><i class="fas fa-tree"></i> Parque Güell</div>
-                    <div class="cost-price">€16.00</div>
-                    <div class="cost-obs">Sexta 17 Julho</div>
-                </div>
-                <div class="cost-row">
-                    <div class="cost-desc"><i class="fas fa-utensils"></i> Almoços & Jantares</div>
-                    <div class="cost-price">€80.00</div>
-                    <div class="cost-obs">Estimado (Mercadona, paella, etc)</div>
-                </div>
-                <div class="cost-row">
-                    <div class="cost-desc"><i class="fas fa-beer"></i> Bebidas & Noites</div>
-                    <div class="cost-price">€50.00</div>
-                    <div class="cost-obs">Copos e atividades noturnas</div>
-                </div>
-                <div class="cost-row" style="display: none;">
-                    <div class="cost-desc"><i class="fas fa-utensils"></i> Refeições Adicionais</div>
-                    <div class="cost-price">€40.00</div>
-                    <div class="cost-obs">TKO Tacos, Five Guys, etc</div>
-                </div>
-                <div class="cost-row total">
-                    <div class="cost-desc"><strong>TOTAL ESTIMADO</strong></div>
-                    <div class="cost-price"><strong>€246.00</strong></div>
-                    <div class="cost-obs">Por pessoa (sem voos)</div>
-                </div>
+            <div class="section-heading">
+                <h2>Orçamento estimado</h2>
+                <p>Um resumo claro para o grupo, com foco em praticidade e controlo de gastos.</p>
             </div>
-
-            <div class="food-guide">
-                <h3><i class="fas fa-utensils"></i> Guia de Restaurantes Recomendados</h3>
-                <div class="food-grid">
-                    <div class="food-card">
-                        <h4>TKO Tacos</h4>
-                        <p><i class="fas fa-star"></i> Tacos autênticos mexicanos</p>
-                    </div>
-                    <div class="food-card">
-                        <h4>Five Guys</h4>
-                        <p><i class="fas fa-star"></i> Hambúrgueres premium</p>
-                    </div>
-                    <div class="food-card">
-                        <h4>99 Cheesecake</h4>
-                        <p><i class="fas fa-star"></i> Cheesecake e sobremesas</p>
-                    </div>
-                    <div class="food-card">
-                        <h4>Xurrería Trébol</h4>
-                        <p><i class="fas fa-star"></i> Churros tradicionais</p>
-                    </div>
-                    <div class="food-card">
-                        <h4>Jamón Ibérico</h4>
-                        <p><i class="fas fa-star"></i> Charcutaria premium</p>
-                    </div>
-                    <div class="food-card">
-                        <h4>Myka</h4>
-                        <p><i class="fas fa-star"></i> Culinária moderna</p>
-                    </div>
-                </div>
+            <div class="cost-table">
+                <div class="cost-header"><div>Descrição</div><div>Preço</div><div>Obs.</div></div>
+                <div class="cost-row"><div class="cost-desc"><i class="fas fa-bus"></i> T Casual</div><div class="cost-price">€13.00</div><div class="cost-obs">10 viagens</div></div>
+                <div class="cost-row"><div class="cost-desc"><i class="fas fa-vr-cardboard"></i> INOKO</div><div class="cost-price">€18.00</div><div class="cost-obs">Quarta</div></div>
+                <div class="cost-row"><div class="cost-desc"><i class="fas fa-football"></i> Camp Nou</div><div class="cost-price">€29.00</div><div class="cost-obs">Quinta</div></div>
+                <div class="cost-row"><div class="cost-desc"><i class="fas fa-tree"></i> Parque Güell</div><div class="cost-price">€16.00</div><div class="cost-obs">Sexta</div></div>
+                <div class="cost-row"><div class="cost-desc"><i class="fas fa-utensils"></i> Refeições</div><div class="cost-price">€80.00</div><div class="cost-obs">Mercadona e refeições simples</div></div>
+                <div class="cost-row total"><div class="cost-desc"><strong>Total estimado</strong></div><div class="cost-price"><strong>€246.00</strong></div><div class="cost-obs">Por pessoa</div></div>
             </div>
         </div>
     </section>
 
     <section id="places" class="places">
         <div class="container">
-            <h2>Locais de Interesse</h2>
+            <div class="section-heading">
+                <h2>Locais para visitar</h2>
+                <p>Cada lugar tem imagem, descrição e ligação para reservar ou comprar.</p>
+            </div>
             <div class="places-grid">
-                <div class="place-card">
-                    <div class="place-icon" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
-                        <i class="fas fa-vr-cardboard"></i>
+                <article class="place-card">
+                    <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80" alt="Praia de Bogatell" />
+                    <div class="place-content">
+                        <h3>Bogatell Beach</h3>
+                        <p>Praia moderna e acolhedora para relaxar e tomar banho.</p>
+                        <p class="price">Gratuito</p>
+                        <a href="https://www.barcelona.com/barcelona_guides/beaches/bogatell_beach" target="_blank" rel="noreferrer" class="buy-link">Ver mais</a>
                     </div>
-                    <h3>INOKO</h3>
-                    <p>Experiência de realidade virtual e tecnologia</p>
-                    <p class="price"><strong>€18</strong></p>
-                    <p class="time">Quarta, 15 Julho - 13:00</p>
-                </div>
-                <div class="place-card">
-                    <div class="place-icon" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
-                        <i class="fas fa-football"></i>
+                </article>
+                <article class="place-card">
+                    <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=900&q=80" alt="Camp Nou" />
+                    <div class="place-content">
+                        <h3>Camp Nou</h3>
+                        <p>Visita o estádio do FC Barcelona e o museu do clube.</p>
+                        <p class="price">€29</p>
+                        <a href="https://www.fcbarcelona.com/en/tickets" target="_blank" rel="noreferrer" class="buy-link">Comprar / reservar</a>
                     </div>
-                    <h3>Camp Nou</h3>
-                    <p>Estádio do FC Barcelona - Tour completo</p>
-                    <p class="price"><strong>€29</strong></p>
-                    <p class="time">Quinta, 16 Julho - 15:00</p>
-                </div>
-                <div class="place-card">
-                    <div class="place-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
-                        <i class="fas fa-tree"></i>
+                </article>
+                <article class="place-card">
+                    <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80" alt="Parque Güell" />
+                    <div class="place-content">
+                        <h3>Parque Güell</h3>
+                        <p>Um dos locais mais bonitos e característicos da cidade.</p>
+                        <p class="price">€16</p>
+                        <a href="https://parkguell.barcelona/en/" target="_blank" rel="noreferrer" class="buy-link">Comprar / reservar</a>
                     </div>
-                    <h3>Parque Güell</h3>
-                    <p>Obra-prima de Gaudí com vistas panorâmicas</p>
-                    <p class="price"><strong>€16</strong></p>
-                    <p class="time">Sexta, 17 Julho - 11:30</p>
-                </div>
-                <div class="place-card">
-                    <div class="place-icon" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
-                        <i class="fas fa-store"></i>
+                </article>
+                <article class="place-card">
+                    <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80" alt="La Boqueria" />
+                    <div class="place-content">
+                        <h3>La Boqueria</h3>
+                        <p>Mercado vibrante com gastronomia local e muita energia.</p>
+                        <p class="price">Gratuito</p>
+                        <a href="https://www.boqueria.barcelona/en/" target="_blank" rel="noreferrer" class="buy-link">Ver local</a>
                     </div>
-                    <h3>Mercado de La Boqueria</h3>
-                    <p>Mercado tradicional com comida local fresca</p>
-                    <p class="price"><strong>Livre</strong></p>
-                    <p class="time">Sexta, 17 Julho - 10:00</p>
-                </div>
-                <div class="place-card">
-                    <div class="place-icon" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
-                        <i class="fas fa-water"></i>
+                </article>
+                <article class="place-card">
+                    <img src="https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=900&q=80" alt="INOKO" />
+                    <div class="place-content">
+                        <h3>INOKO</h3>
+                        <p>Experiência de realidade virtual e tecnologia.</p>
+                        <p class="price">€18</p>
+                        <a href="https://www.inoko.com/" target="_blank" rel="noreferrer" class="buy-link">Ver disponibilidade</a>
                     </div>
-                    <h3>Praia de Bogatell</h3>
-                    <p>Praia paradisíaca para mergulho e relaxo</p>
-                    <p class="price"><strong>Livre</strong></p>
-                    <p class="time">Quarta, 15 Julho - 15:30</p>
-                </div>
-                <div class="place-card">
-                    <div class="place-icon" style="background: linear-gradient(135deg, #ff9a56 0%, #ff6a88 100%);">
-                        <i class="fas fa-water"></i>
+                </article>
+                <article class="place-card">
+                    <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80" alt="Barceloneta" />
+                    <div class="place-content">
+                        <h3>Barceloneta</h3>
+                        <p>A praia urbana mais famosa da cidade, ideal para pôr do sol.</p>
+                        <p class="price">Gratuito</p>
+                        <a href="https://www.barcelona.com/barcelona_guides/beaches/barceloneta" target="_blank" rel="noreferrer" class="buy-link">Ver mais</a>
                     </div>
-                    <h3>Barceloneta Beach</h3>
-                    <p>Praia urbana com ambiente descontraído</p>
-                    <p class="price"><strong>Livre</strong></p>
-                    <p class="time">Sexta, 17 Julho - 15:00</p>
-                </div>
+                </article>
             </div>
         </div>
     </section>
 
     <section id="map" class="map-section">
         <div class="container">
-            <h2>Mapa Interativo</h2>
-            <div id="map" class="map-container"></div>
-            <p class="map-note">Localizações principais dos locais visitados durante a viagem</p>
+            <div class="section-heading">
+                <h2>Hotel e Mercadona</h2>
+                <p>O alojamento e o supermercado mais práticos para o teu dia a dia.</p>
+            </div>
+            <div class="map-grid">
+                <article class="map-card">
+                    <h3><i class="fas fa-hotel"></i> Hotel Doctor Trueta</h3>
+                    <p>Doctor Trueta, 164 • Sant Martí • 08005 Barcelona, Espanha</p>
+                    <iframe title="Mapa do hotel Doctor Trueta" src="https://www.google.com/maps?q=Doctor%20Trueta%20164%20Sant%20Marti%2008005%20Barcelona%20Espanha&z=15&output=embed"></iframe>
+                </article>
+                <article class="map-card">
+                    <h3><i class="fas fa-shopping-cart"></i> Mercadona mais próximo</h3>
+                    <p>Ideal para comprar pequenos-almoços e produtos básicos com facilidade.</p>
+                    <iframe title="Mapa do Mercadona em Sant Martí" src="https://www.google.com/maps?q=Mercadona%20Sant%20Marti%20Barcelona&z=13&output=embed"></iframe>
+                </article>
+            </div>
+            <div class="map-shell">
+                <div id="travel-map" class="map-container"></div>
+            </div>
         </div>
     </section>
 
     <section class="tips">
         <div class="container">
-            <h2>Dicas Úteis</h2>
+            <div class="section-heading">
+                <h2>Dicas úteis</h2>
+                <p>Pequenos detalhes que fazem toda a diferença na viagem.</p>
+            </div>
             <div class="tips-grid">
-                <div class="tip-card">
-                    <i class="fas fa-info-circle"></i>
-                    <h3>Transporte</h3>
-                    <p>O T Casual é o cartão mais económico para 10 viagens no transporte público</p>
-                </div>
-                <div class="tip-card">
-                    <i class="fas fa-sun"></i>
-                    <h3>Proteção Solar</h3>
-                    <p>Julho em Barcelona é quente! Use protetor solar e chapéu para as praias</p>
-                </div>
-                <div class="tip-card">
-                    <i class="fas fa-camera"></i>
-                    <h3>Fotografia</h3>
-                    <p>Não perca os poentes em Barceloneta - são espectaculares!</p>
-                </div>
-                <div class="tip-card">
-                    <i class="fas fa-utensils"></i>
-                    <h3>Gastronomia</h3>
-                    <p>Reserve mesas com antecedência no The Fork para descontos até 50%</p>
-                </div>
-                <div class="tip-card">
-                    <i class="fas fa-wallet"></i>
-                    <h3>Dinheiro</h3>
-                    <p>Muitos locais em Barcelona aceitam cartão. Tenha sempre algum dinheiro</p>
-                </div>
-                <div class="tip-card">
-                    <i class="fas fa-language"></i>
-                    <h3>Língua</h3>
-                    <p>Em Barcelona falam catalão e espanhol. O inglês é comum nos turistas</p>
-                </div>
+                <div class="tip-card"><i class="fas fa-info-circle"></i><h3>Transporte</h3><p>O T Casual é a opção mais prática para deslocações curtas.</p></div>
+                <div class="tip-card"><i class="fas fa-sun"></i><h3>Proteção</h3><p>Julho é quente, por isso leve protetor, chapéu e água.</p></div>
+                <div class="tip-card"><i class="fas fa-camera"></i><h3>Fotografia</h3><p>Os pôr dos sol em Barceloneta valem a pena parar para fotografar.</p></div>
             </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 Barcelona Trip Itinerary | Criado com <i class="fas fa-heart"></i> para uma viagem inesquecível</p>
-            <p>Conectado ao <i class="fab fa-github"></i> GitHub</p>
+            <p>&copy; 2026 Barcelona Trip | Criado para uma viagem memorável</p>
+            <p>Pronto para partilhar no GitHub e continuar a melhorar.</p>
         </div>
     </footer>
 
