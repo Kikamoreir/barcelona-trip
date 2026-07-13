@@ -1,13 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Menu toggle
-    const menuToggle = document.getElementById('menuToggle');
-    const heroMenu = document.getElementById('heroMenu');
-    if (menuToggle) {
-        menuToggle.addEventListener('click', function () {
-            heroMenu.style.display = heroMenu.style.display === 'none' ? 'block' : 'none';
-        });
-    }
-
     initMap();
 
     const plane = document.getElementById('plane');
